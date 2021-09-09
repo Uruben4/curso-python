@@ -17,4 +17,5 @@ wilder.universidad = 'USAC'
 wilder.carnet = '210102231'
 
 print('Nombre persona 1: ', ruben.nombre)
-print('Nombre persona 2')
+print('Nombre persona 2') 
+print('concha tu mandre ')
