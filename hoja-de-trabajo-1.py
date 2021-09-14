@@ -34,6 +34,24 @@ numero = int(input('Ingrese un numero: '))
 resultado = factorial(numero)
 print('el resultado de la serie es: ',resultado) 
         
+def funcion():
+    n = int(input('Ingrese un numero: '))
+    w1 = 1
+    w2 = 2
+    s = 0
+    c = 0
+    if n <= 0:
+        print('error')
+    elif n == 1:
+        print(w1)
+    else:
+        while c < n:
+            print(w1)
+            s = w1 + w2
+            w1 = w2
+            w2 = s
+            c += 1
+funcion()
 
 
 
